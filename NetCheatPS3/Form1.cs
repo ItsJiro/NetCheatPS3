@@ -757,7 +757,7 @@ namespace NetCheatPS3
                         if (apiC == Global.APIs.AvailableAPIs.Count)
                         {
                             apiC = 0;
-                            apiName = "Control Console API (2.60)";
+                            apiName = "Control Console API (2.80)";
                             foreach (Types.AvailableAPI api in Global.APIs.AvailableAPIs)
                             {
                                 if ((api.Instance.Name + " (" + api.Instance.Version + ")") == apiName)
